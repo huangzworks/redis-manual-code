@@ -1,0 +1,5 @@
+redis.call("echo", "line 1")
+redis.call("echo", "line 2")
+redis.call("echo", "line 3")
+redis.call("echo", "line 4")
+redis.call("echo", "line 5")
