@@ -6,7 +6,7 @@ def calculate_index(row, col, row_num, col_num):
         raise ValueError("row out of range")
     if not (col < col_num):
         raise ValueError("col out of range")
-    return row*row_num+col
+    return row*col_num+col
 
 class ZeroOneMatrix:
 
